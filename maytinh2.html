@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<link rel="stylesheet" href="maytinh2.css">
+</head>
+<body>
+	<table>
+		<tr>
+			<td colspan="5"><input id = "NhapSo" type="text"></td>
+		</tr>
+		<tr>
+			<td><input type="button" class = "btn" value = "1" onclick="NhapSo.value+=this.value"></td>
+			<td><input type="button" class = "btn" value = "2" onclick="NhapSo.value+=this.value"></td>
+			<td><input type="button" class = "btn" value = "3" onclick="NhapSo.value+=this.value"></td>
+			<td><input type="button" class = "btn" value = "+" onclick="NhapSo.value+=this.value"></td>
+		</tr>
+		<tr>
+			<td><input type="button" class = "btn" value = "4" onclick="NhapSo.value+=this.value"></td>
+			<td><input type="button" class = "btn" value = "5" onclick="NhapSo.value+=this.value"></td>
+			<td><input type="button" class = "btn" value = "6" onclick="NhapSo.value+=this.value"></td>
+			<td><input type="button" class = "btn" value = "-" onclick="NhapSo.value+=this.value"></td>
+		</tr>
+		<tr>
+			<td><input type="button" class = "btn" value = "7" onclick="NhapSo.value+=this.value"></td>
+			<td><input type="button" class = "btn" value = "8" onclick="NhapSo.value+=this.value"></td>
+			<td><input type="button" class = "btn" value = "9" onclick="NhapSo.value+=this.value"></td>
+			<td><input type="button" class = "btn" value = "*" onclick="NhapSo.value+=this.value"></td>
+		</tr>
+		<tr>
+			<td><input type="button" class = "btn" value = "C" onclick="NhapSo.value=''"></td>
+			<td><input type="button" class = "btn" value = "0" onclick="NhapSo.value+=this.value"></td>
+			<td><input type="button" class = "btn" value = "=" onclick="NhapSo.value=eval(NhapSo.value)"></td>
+			<td><input type="button" class = "btn" value = "/" onclick="NhapSo.value+=this.value"></td>
+		</tr>
+	</table>
+</body>
+</html>
